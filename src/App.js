@@ -1,12 +1,14 @@
 import "./App.css";
 import { useState } from "react";
+import Todos from "./component/Todos";
+import TodoList from "./component/TodoList";
 
 function App() {
   return (
-    <div>
-      <input type="text"></input>
-      <button>Upload</button>
-    </div>
+    <>
+      <Todos />
+      {/* <TodoList style={{ color: "red" }} /> */}
+    </>
   );
 }
 
